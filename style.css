@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: tomato;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#snake-grid{
+
+    width: 400px;
+    height: 400px;
+
+
+}
+.snake-grid-item {
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.filled {
+    background: black;
+}
+
+.food {
+    background: blue;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+#point {
+    font-size: 24px;
+    font-weight: bold;
+}
+
